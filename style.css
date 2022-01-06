@@ -5,6 +5,8 @@ body{
 .font1{
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
+    padding-left: 8px;
+    font-weight: 900;
     
 }
 .title-color{
@@ -13,21 +15,32 @@ body{
 .border{
     border-left: 3px solid rgb(238, 16, 146);
     border-radius: 3px;
-  
+    
     height: 80px;
     padding-bottom: 80px;
 }
 .button{
    text-decoration: none; 
-   background-color: rgba(253, 38, 0, 0.74);
+   background-color: rgba(253, 38, 0, 0.651);
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
     font-weight: 600;
+    
 }
-.Flexing{
+.padding-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.section-flex{
     display: flex;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 60px;
+}
+.NoThree-section{
+    display: flex;
+    margin-left: 0%;
+    margin-right: 60px;
 }
 .half-width{
     width: 50%;
@@ -35,14 +48,16 @@ body{
 .half-width img{
     width: 60%;
     margin-top: 50px;
-    padding-left: 10%;
+    padding-left: 20%;
 }
 #paragraph-width{
     width: 70%;
 }
-#center{
+.center{
     text-align: center;
     margin-top: 80px;
+    font-size: 40px;
+    font-weight: 900;
 }
 .box-1{
     background-color: rgba(143, 205, 226, 0.137) ;
@@ -52,19 +67,68 @@ body{
 }
 .box-3{
     background-color:rgba(43, 255, 0, 0.171);
+   
 }
 .box-shadow{
     box-shadow: 0px 0px 0px 0px gray;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 0%;
+    margin-right: 2%;
     margin-bottom: 5%;
     padding: 2%;
-    border-radius: 10px;
+    border-radius: 20px;
     
+}
+.box-shadow img{
+    width: 35%;
+    margin: 0px;
 }
 .develop-section{
     background-image: url(mission-2022-main/images/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-size: 150px;
+    background-size: 180px;
     background-position:left;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    
 }
+
+.text-position{
+    margin-top: 55px;
+    margin-right: 5px;
+}
+.font-weight{
+    font-weight:1000;
+    font-size: 30px;
+    
+    
+}
+.global-section{
+    background-image: url(mission-2022-main/images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: right;
+    
+}
+
+.app-background{
+    background-image: url(mission-2022-main/images/shapes/shape-8.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 40% 90px;
+    
+   
+
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.74);
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    padding: 20px;
+}
+footer h1{
+    font-family: 'Lobster', cursive;
+}
+
+    
